@@ -8,11 +8,11 @@ import (
 /*
  * Go支持定义字符常量、字符串常量、布尔型常量和数值常量
  * 使用const关键字来定义常量
-*/
+ */
 
-const s string="constant"
+const s string = "constant"
 
-func main()  {
+func main() {
 	fmt.Println(s)
 
 	//"const"关键字可以出现在任何“var”关键字出现的地方
@@ -20,7 +20,7 @@ func main()  {
 	const n = 500000000
 
 	//常量表达式可以执行任意精度的数学计算
-	const d = 3e20/n
+	const d = 3e20 / n
 	fmt.Println(d)
 
 	//数值型常量没有具体类型，除非指定类型
